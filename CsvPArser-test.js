@@ -1,9 +1,5 @@
-var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://localhost:27017/mydb1";
 const file_Parser = require('./parsing');
 const test = require('./test-utilty');
-const { readFile, readFileSync, writeFile } = require('fs');
-
 
 
 test.define_test('Testing for  empty Csv file', () => {
